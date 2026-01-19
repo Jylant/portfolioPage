@@ -18,7 +18,7 @@ const Footer = () => {
             <p>Email: <a href={`mailto:${emailFront}@${emailService}.${emailEnd}`}>Email me</a></p>
             <p>GitHub: <a href={githubLink}>Jylant</a></p>
             <p>LinkedIn: <a href={linkedInLink}>Here</a></p>
-            <p>© 2024 Antti Jylhä. All rights reserved.</p>
+            <p>© 2026 Antti Jylhä. All rights reserved.</p>
         </footer>
         </>
     );

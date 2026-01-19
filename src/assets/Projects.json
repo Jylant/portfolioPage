@@ -18,6 +18,48 @@
         "challenges" : "My greatest challenge lied in employing the same techniques and technologies I didn't have time to properly implement for my part of the work in the showtime squad school project, namely preact signals. My first approach was too complicated in nature, but I'm really satisfied with the finished product"
     },
     "Project2" : {
+        "name" : "ALKU-application",
+        "description" : "A web application for tracking and centralising outsourced billing for Oulu University ICT Department.",
+        "images" : [],
+        "url" : "no public url",
+        "role" : "Software Developer",
+        "tech" : "JAVA, JDBC, Vaadin & Quarkus frameworks, RedHat OpenShift(OS), Azure Pipelines",
+        "tasks" : {
+            "task1" : "Learning and understanding previously done work, especially the statemachine at the core",
+            "task2" : "Implement logic for Lasku table based on design document",
+            "task3" : "Carry logic to frontend representation of lasku table data",
+            "task4" : "Implement state change for the entity on the frontend and save the data properly to backend database",
+            "task5" : "Study how to move product to production on OS via Azure Pipelines",
+            "task6" : "Troubleshoot Azure Pipelines failures",
+            "task7" : "Implement more features and fix previous inaccuracies to better represent the requirements specification, including more precise access control.",
+            "task8" : "Update documentation based on discussed and approved changes.",
+            "task9" : "Make sure next developer for the project will have the necessary testing data, environmental variables, etc. for project continuation."
+        },
+        "workDescription" : "I came into the project midway, had about 1 month together with the previous trainees who built the project up to that point, before I was left as the sole developer for the application. I enjoyed the work environment and my co-workers were awesome. My mentor was Vesa Jokikokko.",
+        "challenges" : "The first challenge was to communicate my vision for the finished product to the other group members, which I started with a diagram for the state machine. The greatest challenge for me was using the database information in the frontend, as I had had little to no experience with Qt signals and slots before this project. I had some trouble with getting the data to show up properly, but the process was very educational. I can say that I learned a lot about debugging and using Qt, including signals and slots."
+    },
+    "Project3" : {
+        "name" : "The Mobile Swiss Army App",
+        "description" : "A multi-purpose mobile app with several functionalities deveoped from the ground up, including spirit level, area calculator, and speedometer.",
+        "images" : [],
+        "url" : "https://github.com/LosUnosMobiles/Mobiiliprojekti",
+        "role" : "Mobile Software Developer",
+        "tech" : "React Native, several basic sublibraries for React Native ",
+        "tasks" : {
+            "task1" : "Jointly ascertain the project requirements for the project from the requirements definition document",
+            "task2" : "Jointly determine individual areas of responsibility.",
+            "task3" : "Jointly design UI with Figma.",
+            "task4" : "Utilize pair programming principles while developing ",
+            "task5" : "Utilize mobile device's telemetry data to math and configure the spirit level and compass.",
+            "task6" : "Help others with bugfixing.",
+            "task7" : "Devise a tape measure with freehand implementation, and try my best to get it to work using physics equations and device location data. I was unsuccessful, but learned a lot about mobile device limitations.",
+            "task8" : "Help with the creation of area calculation algorithm that accounts for angles over 180° for the plot area calculator.",
+            "task9" : "Jointly make and do the presentation."
+        },
+        "workDescription" : "School project, I enjoyed developing the app with the team I joined. I did a little bit of everything, and felt the workloads and challenges were well balanced.",
+        "challenges" : "The highest challenge was obviously the free movement tape measure, which was unsuccesful in the end. The other problem I had was with the magnetometer, which I realised came from the magnet in my phone cover disrupting the sensors."
+    },
+    "Project4" : {
         "name" : "Showtime-Squad",
         "description" : "Website for movies and tv shows. Made as a 2nd year school project",
         "images" : [],
@@ -36,7 +78,7 @@
         "workDescription" : "My first responsibility was to create the database structure and ER diagram. I then proceeded to design the navbar and structure the API calls between TMDB and our backend. I also designed the backend for user created lists, but didn't have time to finish the frontend for it. In between my tasks I helped others a little with their tasks and did miscellaneous bugfixes. There was also a discarded plan for more detailed automated testing for the database, which was dropped.",
         "challenges" : "I chose to start with the ER diagram because I had had some trouble with relation databases previously. I found the task easier than I thought it would be, and I'm gkad having done it. The biggest challenge was the user created lists, which I didn't have time to finish. I had to learn a lot about how to structure the backend for it with JAVA and Spring, and I didn't have time to finish the frontend for it. I'm still happy with the work I did on it, and I'm glad I got to learn more about JAVA and Spring."
     },
-    "Project3" : {
+    "Project5" : {
         "name" : "BankSimul",
         "description" : "ATM simulator. Made as a 1st year school group project",
         "images" : ["../../../assets/images/project_poster.png"],
@@ -56,7 +98,7 @@
         "workDescription" : "I had the most clear vision of the finished product, so I was the one who designed the state machine for the ATM. We designed the database structure and ER diagram together. For the frontend I was responsible for the balance and event log pages. I also helped others with their tasks and did miscellaneous bugfixes. We kind of forgot to do a proper readme.",
         "challenges" : "The first challenge was to communicate my vision for the finished product to the other group members, which I started with a diagram for the state machine. The greatest challenge for me was using the database information in the frontend, as I had had little to no experience with Qt signals and slots before this project. I had some trouble with getting the data to show up properly, but the process was very educational. I can say that I learned a lot about debugging and using Qt, including signals and slots."
     },
-    "Project4" : {
+    "Project6" : {
         "name" : "Brighty (because it has bright lights)",
         "description" : "Speed test game. Made as a 1st year school group project. No github repository. Provided in images an assembly example I modified from the course material. Text in pictures is in Finnish.",
         "images" : ["../../../assets/images/brighty_poster.png", "../../../assets/images/code_example.png"],
